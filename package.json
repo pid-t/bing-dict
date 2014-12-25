@@ -1,6 +1,6 @@
 {
   "name": "bing-dict",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "description": "a cli dictionary that can translate English to Chinese using bing dictionary",
   "main": "lib/index.js",
   "scripts": {
