@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var translate = require('../lib/');
+
+if(process.argv.length < 3) {
+  console.log(chalk.red('Please parse the word you want to query as the parameter'));
+  process.exit(0);
+}
+
+var queryArgs = process.argv.splice(2);
+
+var query = queryArgs.join(' ');
+
+translate(query);
